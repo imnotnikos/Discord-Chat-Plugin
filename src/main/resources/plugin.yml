@@ -1,0 +1,6 @@
+name: DiscordChatLogger
+version: 1.0.0
+main: com.imNikos.DiscordChatLogger
+api-version: "1.21"
+authors: [Nicholas Borowski]
+description: A lightweight webhook sender for Minecraft chat and server events.
