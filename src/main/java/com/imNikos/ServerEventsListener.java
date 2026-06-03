@@ -13,13 +13,13 @@ public class ServerEventsListener implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         String playerName = event.getPlayer().getName();
-        DiscordNotifier.sendToDiscord("🟢 **" + playerName + "** Joined.");
+        DiscordNotifier.sendToDiscord("**" + playerName + "** Joined.");
     }
 
     @EventHandler
     public void onPlayerQuit(PlayerQuitEvent event) {
         String playerName = event.getPlayer().getName();
-        DiscordNotifier.sendToDiscord("🔴 **" + playerName + "** left.");
+        DiscordNotifier.sendToDiscord("**" + playerName + "** left.");
     }
 
     @EventHandler
@@ -32,6 +32,6 @@ public class ServerEventsListener implements Listener {
     public void onPlayerChat(AsyncChatEvent event) {
         String playerName = event.getPlayer().getName();
         String message = PlainTextComponentSerializer.plainText().serialize(event.message());
-        DiscordNotifier.sendToDiscord("💬 **" + playerName + "**: " + message);
+        DiscordNotifier.sendToDiscord("**" + playerName + "**: " + message);
     }
 }
