@@ -1,7 +1,13 @@
-# DiscordChatLogger
+<p align="center"><img src="assets/social-preview.png" alt="Discord Chat Plugin banner" width="100%"></p>
 
-A lightweight Paper plugin that relays in-game chat, joins, leaves, and deaths to a Discord channel via webhook — no bot required.
+# Discord Chat Plugin
+Discord Chat Plugin (DiscordChatLogger) is a lightweight **Paper** plugin that relays in-game chat, joins, leaves, and deaths to a Discord channel via webhook — no bot required.
 
+<img src="assets/icon.png" width="250" height="250" alt="Discord Chat Plugin icon" />
+
+***
+### Plugin made by imNikos.
+ 
 [![Discord](https://img.shields.io/badge/Discord-Nikos'%20Wasteland-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/9xJgzNqEaJ)
 [![Instagram](https://img.shields.io/badge/Instagram-imNikos_-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/imnikos_)
 [![YouTube](https://img.shields.io/badge/YouTube-imNikoss-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@imnikoss)
@@ -9,8 +15,9 @@ A lightweight Paper plugin that relays in-game chat, joins, leaves, and deaths t
 [![GitHub](https://img.shields.io/badge/GitHub-imnotnikos-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/imnotnikos)
 [![Modrinth](https://img.shields.io/badge/Modrinth-imNikos-1bd96a?style=flat-square&logo=modrinth&logoColor=white)](https://modrinth.com/user/imNikos)
 [![CurseForge](https://img.shields.io/badge/CurseForge-imnotnikos-F16436?style=flat-square&logo=curseforge&logoColor=white)](https://www.curseforge.com/members/imnotnikos/projects)
----
 
+
+***
 ## Overview
 
 DiscordChatLogger is a minimal bridge between your Minecraft server and Discord. It listens for a handful of core server events and posts them to a Discord webhook as plain messages, so your community can follow along with what's happening in-game without needing a full Discord bot.
